@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ishwari Kenchi | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="cursor"></div>
+
+  <canvas id="bg"></canvas>
+
+  <nav class="navbar">
+    <div class="nav-left">Ishwari Kenchi</div>
+
+    <div class="nav-center">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+    </div>
+
+    <div class="nav-right">
+      <a href="#footer" class="contact-btn">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1 class="hero-name">
+  <span id="typewriter"></span>
+</h1>
+
+    <p class="hero-subtitle">
+      Student · Web Developer · AI Enthusiast & Explorer
+    </p>
+
+    <div class="hero-buttons">
+      <button class="magnetic-btn">Skills</button>
+      <button class="magnetic-btn">Projects</button>
+    </div>
+
+    <div class="scroll-indicator"></div>
+  </section>
+
+ <section class="section about-section" id="about">
+  <div class="about-container">
+    <span class="about-pill">About Me</span>
+    <h2 class="section-title">Who I Am</h2>
+
+    <p class="about-text">
+      I am a dedicated B.Tech Computer Science (Data Science) undergraduate currently pursuing my studies at NxtWave Institute of Advanced Technologies. I possess a keen interest in designing and developing modern web applications, building AI-powered solutions, and creating engaging, immersive digital experiences. I am particularly motivated by projects that integrate strong technical foundations with creativity and analytical thinking.
+      I actively seek opportunities to apply my knowledge to real-world problems, focusing on developing efficient, scalable, and user-centric solutions. With a continuous learning mindset, I explore emerging tools, frameworks, and technologies to enhance my skill set and stay aligned with evolving industry standards. I am committed to growing as a technology professional while contributing meaningfully through innovation and problem-solving.
+    </p>
+  </div>
+</section>
+
+  <section class="section section-journey">
+    <h2 class="section-title">My Educational Journey</h2>
+
+    <div class="journey-wrapper">
+      <svg class="roadmap-line" viewBox="0 0 200 600">
+        <path id="journeyPath"
+          d="M100 0
+             C 220 120, -20 240, 100 300
+             C 220 360, -20 480, 100 540"
+          stroke="rgba(255,255,255,0.85)"
+          stroke-width="3"
+          fill="none"
+        />
+      </svg>
+
+      <div class="edu edu-1">
+        <h3>Schooling (201–2022)</h3>
+        <p>The Arhanas Rosary High School, Pune</p>
+      </div>
+
+      <div class="edu edu-2">
+        <h3>Intermediate College (2022–2024)</h3>
+        <p>JK College of Science,commerce and engineering</p>
+      </div>
+
+      <div class="edu edu-3">
+        <h3>B.Tech CSE (DS) (2025–2029)</h3>
+        <p>NxtWave Institute of Advanced Technologies</p>
+      </div>
+    </div>
+  </section>
+
+<section class="section" id="skills">
+  <div class="skills-header">
+    <span class="skills-pill">Skills</span>
+    <h2 class="section-title">Skills I Have</h2>
+  </div>
+
+  <div class="skills-grid">
+
+    <div class="skill-box">
+      <h3>💻 Languages & Frameworks</h3>
+      <div class="skill-tags">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>Bootstrap</span>
+        <span>Tailwind CSS</span>
+       
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <h3>🛠 Databases & Tools</h3>
+      <div class="skill-tags">
+        
+        <span>GitHub</span>
+        
+        <span>VS Code</span>
+       
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <h3>🎨 UI & Styling</h3>
+      <div class="skill-tags">
+        <span>Figma</span>
+        <span>Framer</span>
+        
+        <span>Canva</span>
+      </div>
+    </div>
+
+
+     <div class="skill-box">
+      <h3>Hobbies</h3>
+      <div class="skill-tags">
+        <span>Dancing</span>
+        <span>Cooking</span>
+        <span>Drawing</span>
+        <span>Painting</span>
+      </div>
+    </div>
+
+
+
+    <div class="skill-box full-width">
+      <h3>🌍 Languages I Speak</h3>
+      <div class="skill-tags">
+        <span>English</span>
+        <span>Hindi</span>
+        <span>Marathi</span>
+        <span>Telugu</span>
+      </div>
+    </div>
+
+
+   
+
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="projects-header">
+    <span class="projects-pill">Projects</span>
+    <h2 class="section-title">Things I’ve Built</h2>
+  </div>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h3>AnimGen AI</h3>
+      <p class="project-subtitle">Text to Animation Generator</p>
+
+      <p class="project-desc">
+        AnimGen AI converts plain educational or technical text into engaging
+        animated visual explanations. It helps students, teachers, and creators
+        understand complex topics through AI-generated animations.
+      </p>
+
+      <div class="project-tech">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>LLM</span>
+        <span>Typescript</span>
+      </div>
+
+      <div class="project-buttons">
+        <a href="https://ishwari-kenchi.github.io/Amnigen/" target="_blank">Live Demo</a>
+        <a href="https://github.com/Ishwari-Kenchi/Amnigen.git" target="_blank">Source Code</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Global Wanderlust Planner</h3>
+      <p class="project-subtitle">AI Travel Planner</p>
+
+      <p class="project-desc">
+        An AI-powered travel planning web app that creates personalized trip
+        itineraries based on destination, budget, duration, and interests,
+        helping users plan smarter and faster journeys.
+      </p>
+
+      <div class="project-tech">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>LLM</span>
+        <span>Typescript</span>
+      </div>
+
+      <div class="project-buttons">
+        <a href="https://global-wanderlust-planner-112180359347.us-west1.run.app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/Ishwari-Kenchi/Travel-Agentic-AI.git" target="_blank">Source Code</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section section-resume" id="resume">
+  <h2 class="section-title">Resume</h2>
+
+  <p class="resume-text">
+   View or download my resume to learn more about my education, skills,
+    projects, and professional journey.
+  </p>
+
+  <div class="resume-actions">
+    <a href="https://drive.google.com/file/d/1x3GYMVRBjoNZawP7au8dhRB0G6nA1bPd/view?usp=drivesdk" target="_blank" class="resume-btn">
+      👁 View Resume
+    </a>
+    
+  <a href="https://drive.google.com/file/d/1x3GYMVRBjoNZawP7au8dhRB0G6nA1bPd/view?usp=drivesdk" download class="resume-btn">
+    📄 Download Resume
+  </a>
+  </div>
+</section>
+
+  <footer class="footer" id="footer">
+  <h2 class="footer-name">Ishwari Kenchi</h2>
+
+ 
+
+    <a href="https://www.linkedin.com/in/ishwari-kenchi-0a612b308" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+
+   
+
+    <a href="https://github.com/Ishwari-Kenchi" target="_blank" aria-label="Github">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+
+  <p class="footer-contact">
+    📞 9373375125 &nbsp;|&nbsp; ✉️ ishwarikenchi@gmail.com
+  </p>
+
+  <p class="footer-copy">
+    © 2025 Ishwari Kenchi. All Rights Reserved.
+  </p>
+</footer>
+
+  <script src="https://unpkg.com/three@0.158.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
